@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>TheGameStore</title>
+  </head>
+  <body>
+    <header>
+      <img src="/assets/img/logo.png" class="logo" alt="logo" />
+
+      <nav>
+        <div class="menu-label">
+          <img src="./assets/img/menu.png" alt="" class="menu-icon" />
+        </div>
+
+        <ul class="navbar-list">
+          <li><a class="navbar-link" href="#hero">Home</a></li>
+          <li>
+            <a class="navbar-link" href="#iniciarSesion">Iniciar Sesion</a>
+          </li>
+          <li><a class="navbar-link" href="#registro">Registro</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="card-container" id="card-container">
+        <!--Se renderiza desde JS -->
+      </section>
+      <div class="paginacion">
+        <button id="btnAnterior">Anterior</button>
+        <button id="btnSiguiente">Siguiente</button>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="./assets/js/request.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
